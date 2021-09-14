@@ -130,15 +130,22 @@ header {
   font-weight: bold;
   margin-left: 20px;
 }
+.section .section-main a {
+  text-decoration: none;
+}
 .section .section-main .section-text2 {
   color: #e11b51;
   font-weight: bold;
   margin-left: 20px;
+  text-decoration: none;
+
 }
 .section .section-main .section-text3 {
   color: #33684b;
   font-weight: bold;
   margin-left: 20px;
+  text-decoration: none;
+  
 }
 .section .section-main .frame {
   margin-top: 5px;
@@ -162,7 +169,7 @@ header {
   margin-bottom: 100px;
 }
 .new .new-title h1 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .new .new-title button {
   width: 159px;
@@ -188,7 +195,6 @@ header {
   font-weight: bold;
 }
 .program .program-main {
-  height: 470px;
   background-color: white;
   padding: 25px;
   margin: 10px;
@@ -222,6 +228,19 @@ header {
 }
 .event .event-body .text {
   color: red;
+  font-weight: bold;
+}
+.event .event-body .text2 {
+  color: black;
+  font-weight: bold;
+}
+.event .event-body .text3 {
+  color: black;
+  font-weight: bold;
+}
+.event .event-body a {
+  text-decoration: none;
+  
 }
 .event .event-body p {
   margin-top: 20px;
@@ -287,7 +306,75 @@ header {
 
 /*--footer--*/
 .footer1 {
-  padding: 30px;
+  padding: 50px;
   background-color: #0198cf;
 }
-
+.footer1 .footer-body {
+  color: white;
+}
+.footer1 .footer-body h4 {
+  padding: 15px 15px 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer1 .footer-main h6{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.footer1 .footer-main ul{
+  padding: 0;
+  
+}
+.footer1 .footer-main ul li{
+  list-style: none;
+  padding: 10px 10px 10px 0;
+}
+.footer1 .footer-main ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer1 .info img {
+  padding: 20px 15px 15px 0;
+}
+.footer1 .info h6{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.footer1 .info input {
+  margin-top: 15px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  background-color:#00BFFF;
+  border-radius: 5px;
+}
+.footer1 .info input::placeholder {
+  padding: 10px;
+  color: white;
+}
+.footer1 .info button {
+  margin-top: 20px;
+  width: 124px;
+  height: 40px;
+  border-radius: 50px;
+  color: #0198cf;
+  border: none;
+  background-color:white;
+  font-weight: bold;
+}
+.footer2 {
+  /* margin: 80px; */
+  padding: 10px 0px;
+  background-color: #13A0D3;
+  width: 100%;
+  text-align: center;
+  color: #ffff;
+}
+.footer2 p {
+  margin: 0px;
+}
